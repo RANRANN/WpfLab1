@@ -1,0 +1,81 @@
+﻿<Window x:Class="WpfLab1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfLab1"
+        mc:Ignorable="d"
+        Title="Калькулятор" Height="230" Width="180">
+    <Grid Margin="0,0,0,0" Background="#FFCED5D8">
+        <Button Content="7" Height="30" Width="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,70,0,0" Background="#FFF0FAFF"/>
+        <Button Content="8" Height="30" Width="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="40,70,0,0" Background="#FFF0FAFF"/>
+        <Button Content="9" Height="30" Width="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="75,70,0,0" Background="#FFF0FAFF"/>
+        <Button Content="4" Height="30" Width="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,105,0,0" Background="#FFF0FAFF"/>
+        <Button Content="5" Height="30" Width="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="40,105,0,0" Background="#FFF0FAFF"/>
+        <Button Content="6" Height="30" Width="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="75,105,0,0" Background="#FFF0FAFF"/>
+        <Button Content="1" Height="30" Width="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,140,0,0" Background="#FFF0FAFF"/>
+        <Button Content="2" Height="30" Width="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="40,140,0,0" Background="#FFF0FAFF"/>
+        <Button Content="3" Height="30" Width="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="75,140,0,0" Background="#FFF0FAFF"/>
+        <Button Content="0" Height="30" Width="65" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,175,0,0" Background="#FFF0FAFF"/>
+        <Button Content="," Height="30" Width="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="75,175,0,0" Background="#FFF0FAFF"/>
+        <Button Content="=" Height="65" Width="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="145,140,0,0">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFD1F0FF"/>
+                    <GradientStop Color="White" Offset="0.5"/>
+                    <GradientStop Color="#FF9DCCE4" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="/" Height="30" Width="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="110,70,0,0">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFD1F0FF"/>
+                    <GradientStop Color="#FF9DCCE4" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="*" Height="30" Width="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="110,105,0,0">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFD1F0FF"/>
+                    <GradientStop Color="#FF9DCCE4" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="-" Height="30" Width="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="110,140,0,0">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFD1F0FF"/>
+                    <GradientStop Color="#FF9DCCE4" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="+" Height="30" Width="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="110,175,0,0">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFD1F0FF"/>
+                    <GradientStop Color="#FF9DCCE4" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="1/x" Height="30" Width="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="145,105,0,0">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFD1F0FF"/>
+                    <GradientStop Color="#FF9DCCE4" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="%" Height="30" Width="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="145,70,0,0">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFD1F0FF"/>
+                    <GradientStop Color="#FF9DCCE4" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="170" Height="45" Background="White" TextAlignment="Right"/>
+
+    </Grid>
+</Window>
